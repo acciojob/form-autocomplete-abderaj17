@@ -8,9 +8,20 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form >
-		<input type="text" />
-	</form>
+	 <h2>Auto-Save Form</h2>
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        
+        <button type="submit">Submit</button>
+        <button type="button" id="clear">Clear Storage</button>
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
